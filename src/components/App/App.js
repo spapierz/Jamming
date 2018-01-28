@@ -1,10 +1,10 @@
 import React from 'react';
 
 import Header from '../Header/Header';
+import Spotify from '../../util/Spotify';
 import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
 import Playlist from '../Playlist/Playlist';
-import Spotify from '../../util/Spotify';
 import './App.css';
 
 Spotify.getAccessToken();
